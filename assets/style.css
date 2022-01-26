@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+    justify-content: space-between;
+}
+
+.header-img {
+    width: 4vw;
+}
+
+.link-a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-a:first-child {
+    margin-right: 2vw;
+}
+
+.link-a:hover {
+    padding-bottom: 0.2vh;
+    border-bottom: 6px solid blue;
+}
